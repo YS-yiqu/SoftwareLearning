@@ -43,4 +43,3 @@ For tube and solid cylinder conductors, the deﬁned surface area is the outside
 
 #### 参考信息
 1. user_manual.pdf
-2. 
