@@ -1,0 +1,114 @@
+1    RBIC/3.3            RELAP5 Based Integrated Code            
+1 Copyright (C) 2001  Information Systems Laboratories, Inc.     
+0Execute file: relap5.exe                              
+0Effective command line parameters:
+    -f ftb1                                                                                        -i C:/Users/wenyichao/Desktop/敞口注水测试-底部温度变化/strip.i                            
+    -o C:/Users/wenyichao/Desktop/敞口注水测试-底部温度变化/strip.o                                -p plotfl                                                                                  
+    -r [C:/Users/wenyichao/Desktop/敞口注水测试-底部温度变化/注水.r]                               -s stripf                                                                                  
+    -j jbinfo                                                                                      -n null                                                                                    
+    -c cdffile                                                                                     -a coupfl                                                                                  
+    -X                                                                                             -C 0                                                                                       
+    -A dumpfil1                                                                                    -B dumpfil2                                                                                
+    -S snapdata                                                                                    -P 5009                                                                                    
+    -O                                                                                             -R []                                                                                      
+    -w [tpfh2o]                                                                                    -d [tpfd2o]                                                                                
+    -h [tpfh2]                                                                                     -l [tpfli]                                                                                 
+    -k [tpfk]                                                                                      -b [tpfhe]                                                                                 
+    -e [tpfn2]                                                                                     -m [tpfna]                                                                                 
+    -q [tpfnak]                                                                                    -t [tpflipb]                                                                               
+    -u [tpfnh3]                                                                                    -W [tpfh2on]                                                                               
+    -g [tpfglyc]                                                                                   -H [tpfblood]                                                                              
+    -Z [tpfh2onew]                                                                             
+
+    [] = tentative file name (may be overridden by input data)
+
+0Environmental library version number is: 3.3     
+0Table of update define values
+ apollo   off         blkdta   off         bufr     off         cdccra   off         cos      off
+ cray     off         ctss     off         debth    off         decalp90 off         decalpha off
+ decrisc  off         decrisc2 off         erf      on          extjun   off         extj20   off
+ extsys   off         extvol   off         extv20   off         extv100  off         fourbyt  on 
+ hp       off         ibm      off         ibmrisc  off         ieee     off         in32     on 
+ laheyf77 off         lcm      off         makemap  off         nanscr   off         nopen    off
+ npa      off         nreac    off         ploc     on          pvmcoupl off         readnonb off
+ selap    off         sgi      off         sun      off         unicos   off         unix     on 
+ vax      off         win32cvf on 
+ listing of input data for case  1                                                                        
+                                                                                                          
+     1    *==========================                                                                     
+     2    *         title card                                                                            
+     3    *==========================                                                                     
+     4    =strip                                                                                          
+     5    *==========================                                                                     
+     6    * problem type and option                                                                       
+     7    *==========================                                                                     
+     8    *cardno    problem type      option                                                             
+     9    100           strip                    fmtout                                                   
+    10    *==========================                                                                     
+    11    *cardno    restart no.                                                                          
+    12    103           0                                                                                 
+    13    *==========================                                                                     
+    14    *cardno  var.name    parameter                                                                  
+    15    1001 tempf 100010000                                                                            
+    16    1002 tempf 100020000                                                                            
+    17    1003 tempf 100030000                                                                            
+    18    1004 tempf 100040000                                                                            
+    19    1005 tempf 100050000                                                                            
+    20    1006 tempf 100060000                                                                            
+    21    1007 cntrlvar 006                                                                               
+    22    1008 p 100010000                                                                                
+    23    1009 p 100020000                                                                                
+    24    1010 p 100030000                                                                                
+    25    1011 p 100040000                                                                                
+    26    1012 p 100050000                                                                                
+    27    1013 p 100060000                                                                                
+    28    1014 p 099010000                                                                                
+    29    1015 tempf 099010000                                                                            
+    30    1016 p 099020000                                                                                
+    31    1017 tempf 099020000                                                                            
+    32                                                                                                    
+    33                                                                                                    
+    34                                                                                                    
+    35                                                                                                    
+    36                                                                                                    
+    37                                                                                                    
+    38                                                                                                    
+    39    .End of input.                                                                                  
+0    RBIC/3.3            RELAP5 Based Integrated Code            
+0 Copyright (C) 2001  Information Systems Laboratories, Inc.     
+  strip                                                                           13-Apr-24    18:23:29      
+1    RBIC/3.3            RELAP5 Based Integrated Code            
+1 Copyright (C) 2001  Information Systems Laboratories, Inc.     
+  strip                                                                           13-Apr-24    18:23:29      
+0Processing type is strip   
++                                       problem option is fmtout  
+0inp-chk, run option is run.    
+0Restart input file was written by program   RELAP5/3.3             on 13-Apr-24    18:23:18   , transient run.
+0         Strip variable requests
+ req.num.    variable code    parameter
+     1001      tempf          100010000
+     1002      tempf          100020000
+     1003      tempf          100030000
+     1004      tempf          100040000
+     1005      tempf          100050000
+     1006      tempf          100060000
+     1007      cntrlvar               6
+     1008      p              100010000
+     1009      p              100020000
+     1010      p              100030000
+     1011      p              100040000
+     1012      p              100050000
+     1013      p              100060000
+     1014      p               99010000
+     1015      tempf           99010000
+     1016      p               99020000
+     1017      tempf           99020000
+0$$$$$$$$ Input processing completed successfully.
+
+0The following strip request variables were not found on the rstplt file.
+ req.num.    variable code    parameter
+     1014      p               99010000
+     1015      tempf           99010000
+     1016      p               99020000
+     1017      tempf           99020000
+0Successful end of strip processing.
