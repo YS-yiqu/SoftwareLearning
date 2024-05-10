@@ -1,0 +1,1 @@
+[可以做成flash或者视频，就好控制了](https://zhidao.baidu.com/question/500077413.html)
